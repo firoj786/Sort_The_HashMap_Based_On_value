@@ -14,6 +14,7 @@ import java.util.stream.Collectors;
  * @author Firoj
  * @since 2022-01-05
  */
+ 
 public class SorttheHashMapBasedOnvalue {
 
 	public static void main(String[] args) {
@@ -38,4 +39,5 @@ public class SorttheHashMapBasedOnvalue {
 		}).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
 		System.out.println("After sorting :- " + sortedMap);
 	}
+	
 }
