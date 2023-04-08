@@ -17,12 +17,19 @@ import java.util.stream.Collectors;
 public class SorttheHashMapBasedOnvalue {
 
 	public static void main(String[] args) {
+	
 		Map<String, Integer> map = new HashMap<>();
+		
 		map.put("firoj", 2);
+		
 		map.put("husne", 4);
+		
 		map.put("arzoo", 5);
+		
 		map.put("dipu", 3);
+		
 		map.put("tanish", 6);
+		
 		map.put("ibney", 1);
 
 		System.out.println("Befor Sorting:-" + map);
